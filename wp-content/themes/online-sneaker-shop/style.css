@@ -1,0 +1,524 @@
+/*
+Theme Name: Online Sneaker Shop
+Theme URI: https://www.titanthemes.net/products/free-shoes-store-wordpress-theme
+Author: Titan Themes
+Author URI: https://www.titanthemes.net/
+Description: The Online Sneaker Shop theme is a premium, high-performing solution designed for trendy, conversion-focused footwear stores and sneaker boutiques, perfect for showcasing and selling men’s shoes, women’s shoes, kids’ shoes, and unisex sneakers. Built for seamless sales of luxury shoes, streetwear sneakers, athletic footwear, lifestyle sneakers, running shoes, high-tops, casual kicks, sports shoes, performance footwear, designer shoes, and limited-edition sneaker drops, it offers customizable layouts, product sliders, dynamic image galleries, and a fully responsive interface for an immersive shopping experience. Key features include product quick view, size charts, advanced filtering, customer reviews, wishlist functionality, and product comparison to enhance the buying journey. Optimized for SEO, mobile responsiveness, and fast load speeds, this theme improves visibility for search terms such as online shoe shop, sneaker store, sneaker culture, exclusive sneaker releases, and sneaker boutique. Integrated social media sharing boosts engagement for promotions and trending collections, while a built-in blog allows you to feature sneaker styling tips, footwear trends, and collection launches. Ideal for retail shops, sneaker resellers, boutique footwear brands, and wholesale shoe businesses, this theme offers scalability and professional functionality with seamless integration of the WooCommerce plugin for product management, secure checkout, and online payments, as well as Smart Slider 3 and Contact Form 7 for interactive visuals and customer engagement. Demo: https://preview.titanthemes.net/online-sneaker-shop/
+Requires at least: 6.1
+Tested up to: 6.8
+Requires PHP: 7.2
+Version: 2.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: online-sneaker-shop
+Tags: grid-layout, one-column,  two-columns, left-sidebar, right-sidebar, wide-blocks, block-patterns, custom-background, custom-colors, custom-menu, custom-logo, editor-style, block-styles, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, style-variations, theme-options, threaded-comments, translation-ready,, blog, photography, e-commerce
+*/
+
+.banner-right-col01::after {
+  position: absolute;
+  top: 0%;
+  right: 0;
+  content: '';
+  background: var(--wp--preset--color--secondary);
+  height: 100%;
+  width: 47%;
+  z-index: 2;
+}
+.header-inner-menu .wp-block-woocommerce-customer-account{
+  display: none;
+}
+.banner-right-col01 {
+  position: relative;
+}
+.wp-block-woocommerce-customer-account a {
+  padding: 0px !important
+}
+.wp-block-woocommerce-customer-account a svg{
+  height: 2em !important;
+}
+li.wp-social-link.wp-block-social-link{
+  border-radius: 0px !important;
+}
+.banner-right-col01 .image-column figure img {
+  position: relative;
+  z-index: 9;
+}
+.social-icon-column {
+  position: relative;
+  z-index: 9;
+  justify-content: flex-end;
+  display: flex;
+}
+.social-icon-column .wp-block-group p {
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icon-column .wp-block-group {
+  border: 1px solid #FFFFFF;
+  width: min-content;
+}
+.social-icon-column p {
+  writing-mode: vertical-rl;
+  height: max-content;
+}
+.product-box-banner{
+  position: relative;
+}
+.product-image-box img {
+  position: absolute;
+  top: -25px;
+}
+.review-col01 figure{
+  margin-right: 0px  !important;
+}
+.banner-col01 {
+  display: inline-block !important;
+}
+.border-right-box p span {
+  margin-right: 10px;
+}
+
+.product-img img {
+  width: 100% !important;
+  height: 250px;
+}
+.photolancer-footer-list {
+  gap: 16px;
+}
+.photolancer-footer-list ul li a:hover{
+  color: #fff;
+}
+.wp-block-image img{
+  vertical-align: unset;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container li a {
+  color: #000;
+}
+
+
+.wp-block-image.product-img img {
+  vertical-align: bottom !important;
+}
+
+.product-img{
+  width: 100%;
+}
+
+.home .header-area {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background: transparent !important;
+}
+.slider-main{
+  position: relative;
+}
+
+.social-icon {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translateY(-50%);
+  z-index: 99999;
+  clip-path: polygon(0 12%, 50% 0, 100% 12%, 100% 88%, 50% 100%, 0 88%);
+  padding: 30px 10px;
+  z-index: 1;
+}
+.social-icon ul {
+  display: flex;
+  flex-direction: column;
+}
+.searchbox .wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-2.wp-block-columns-is-layout-flex {
+  gap: 0px !important;
+}
+
+.service-heading-box{
+  text-align: center;
+}
+.service-heading-box h6{
+  position: relative;
+}
+
+.wp-site-blocks{
+	padding: 0 !important;
+}
+.toggle-icon img {
+  top: -7px;
+  position: relative;
+}
+.banner-main{
+  position: relative;
+}
+.slider-banner {
+  gap: 40px;
+}
+
+.slider-content {
+  position: relative;
+}
+
+.short-heading {
+  padding-left: 8px !important;
+  position: relative;
+}
+.short-heading:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 6px;
+  width: 5px;
+  border-radius: 30px;
+  height: 5px;
+  background: var(--wp--preset--color--primary) !important;
+}
+footer.wp-block-template-part {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  span.wp-block-navigation-item__label,.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item__content {
+    color: #000;
+  }
+  .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item{
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .border-right-box p{
+    text-align: center;
+  }
+  .header-logo h1{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .header-inner-menu nav{
+    justify-content: center;
+  }
+  .wp-block-woocommerce-customer-account{
+    margin-left: 0px !important;
+  }
+  .wishlist-col,.admin-col{
+    margin-bottom: 10px !important;
+  }
+  .search-column{
+    text-align: center !important;
+    justify-content: center !important;
+    margin-bottom: 15px !important;
+  }
+  .social-icon-column ul {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .social-icon-column p{
+    writing-mode: horizontal-tb;
+    min-height: auto !important;
+    color:#000 !important;
+  }
+  
+  .wp-block-search__inside-wrapper{
+    justify-content: center;
+  }
+  form.wp-block-search__button-only.wp-block-search__searchfield-hidden.wp-block-search__icon-button.alignright.header-search.wp-block-search {
+    float: none;
+    margin-left: 0px;
+  }
+  ul.wp-block-navigation__submenu-container.wp-block-navigation-submenu {
+    padding-top: 0px !important;
+  }
+  .wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content{
+    padding-top: var(--wp--style--block-gap, 2em);
+  }
+}
+@media screen and (min-width: 575px) and (max-width: 781px) {
+  .product-content-box,.product-image-box{
+    flex-basis: 50% !important;
+  }
+  .product-box-banner{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
+} 
+@media screen and (min-width: 320px) and (max-width: 781px) {
+  .slider-banner{
+    text-align: center;
+  }
+  .rating-box-right,.rating-box-left{
+    flex-basis: 50% !important;
+  }
+  .rating-box{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
+  .home .header-area {
+    position: relative;
+    background: #cecece !important;
+  }
+  .search-column{
+    text-align: center !important;
+    justify-content: center !important;
+    margin-bottom: 15px !important;
+  }
+  .wp-block-search__inside-wrapper{
+    justify-content: center;
+  }
+  .wp-block-column.team-logo.is-layout-flow.wp-block-column-is-layout-flow{
+    flex-basis: 30% !important;
+  }
+  .wp-block-column.team-content.is-layout-flow.wp-container-core-column-is-layout-20.wp-block-column-is-layout-flow{
+    flex-basis: 70% !important;
+  }
+  .banner-right-col02{
+    margin-bottom: 20px !important;
+  }
+  .review-col01 {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
+  .banner-right-col02{
+    text-align: center !important;
+  }
+  form.wp-block-search__button-only.wp-block-search__searchfield-hidden.wp-block-search__icon-button.alignright.header-search.wp-block-search {
+    float: none;
+    margin-left: 0px;
+  }
+  .banner-col01{
+    display: block !important;
+  }
+  .social-icon-column ul {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .social-icon-column{
+    justify-content: center;
+  }
+  .social-icon-column p{
+    writing-mode: horizontal-tb;
+    min-height: auto !important;
+    color:#000 !important;
+  }
+  .searchbox nav{
+    justify-content: center;
+  }
+  .header-logo h1{
+    text-align: center;
+    padding-top: 20px;
+  }
+  .header-inner-menu nav,.header-inner-menu ul{
+    justify-content: center;
+  }
+  .wp-block-woocommerce-customer-account{
+    margin-left: 0px !important;
+  }
+  .social-icon {
+    right: 0%;
+    padding: 30px 10px;
+  }
+  .service-heading-box h6,.service-heading-box p{
+    text-align: center;
+  }
+  .meta-box{
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
+  .wishlist-col,.admin-col,.cart-col{
+    flex-basis: 33.3% !important;
+  }
+  .service-heading-box .wp-block-buttons {
+    justify-content: center;
+  }
+  .border-right-box p{
+    text-align: center !important;
+  }
+  .slider-banner .wp-block-buttons {
+    justify-content: center;
+  }
+  .slider-banner p{
+    text-align: center;
+  }
+}
+@media screen and (min-width: 782px) and (max-width: 1200px) {
+  .slider-banner{
+    text-align: left !important;
+  }
+  .wp-block-social-links, .wp-block-social-links.has-normal-icon-size {
+    font-size: 18px;
+  }
+  .heading-banner {
+    font-size: 28px !important;
+  }
+  .slider-banner p{
+    font-size: 12px !important;
+  }
+  .product-content{
+    text-align: left !important;
+  }
+  .product-content h5 {
+    font-size: 22px !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 800px) {
+	.header-area .wp-container-core-buttons-layout-1.wp-container-core-buttons-layout-1 {
+		justify-content: center;
+	}
+  .product-content h6,.product-content h5{
+    text-align: left;
+  }
+  .head-btn .wp-block-buttons.is-content-justification-right{
+    justify-content: center;
+  }
+  .slider-content {
+    left: 0px;
+    position: relative;
+  }
+  .product-img img{
+    height: 300px !important;
+  }
+  .wp-block-cover, .wp-block-cover-image{
+    min-height: 430px;
+  }
+  .header-area h5{
+    text-align: center;
+  }
+  .header-area{
+    text-align: center;
+  }
+  .product-main {
+    max-width: 90% !important;
+    gap:40px;
+  }
+  .admin-bar .wp-block-navigation__responsive-container-close {
+    color: #000;
+    top:15px;
+  }
+  .slider-banner {
+    gap: 20px;
+  }
+  .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container{
+    justify-content: center !important;
+    width: 100% !important;
+    align-items: center !important;
+  }
+  .single-image figure{
+    width: 100% !important;
+  }
+	
+}
+@media screen and (min-width: 781px) and (max-width: 1020px) {
+  .product-main{
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  .searchbox .wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-3.wp-block-columns-is-layout-flex{
+    gap:10px !important;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 781px) {
+  .product-main{
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  .top-text {
+    flex-basis: 60% !important;
+}
+  .top-phone {
+    flex-basis: 17% !important;
+}
+  .top-mail {
+    flex-basis: 23% !important;
+}
+  h2.slide-head{
+    font-size: 20px !important;
+  }
+  p.slide-para{
+    font-size: 12px !important;
+  }
+  .slide-right {
+    flex-basis: 50% !important;
+}
+  .slide-left {
+    flex-basis: 50% !important;
+}
+}
+
+.wp-block-woocommerce-customer-account a{
+  justify-content: center;
+}
+.wp-block-column.is-vertically-aligned-center.cart-col.is-layout-flow.wp-block-column-is-layout-flow {
+  text-align: center;
+}
+.wp-block-search.wp-block-search__button-only .wp-block-search__input{
+  position: relative;
+  z-index: 99;
+}
+button.wp-block-search__button.has-text-color.has-white-color.has-background.has-medium-font-size.has-icon.wp-element-button {
+  padding: 15px 13px;
+}
+
+/*back to top*/
+.wp-block-button.scroll-to-top .wp-block-button__link.wp-element-button {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  display: inline-block;
+  z-index: 1;
+  text-indent: -5000px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.089);
+  display: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+.wp-block-button.scroll-to-top .wp-block-button__link.wp-element-button:after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  -webkit-mask-image: url(assets/images/up-arrow.svg);
+  mask-image: url(assets/images/up-arrow.svg);
+  mask-repeat: no-repeat;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center center;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
+}
+
+/* Blog Section */
+.news-section .news-box .wp-block-post-excerpt__excerpt{
+  color: #000000;
+}
+.news-heading-box .news-small-title{
+  width: max-content;
+}
+.news-section .news-heading-box{
+  gap: 0;
+}
+.news-section .news-box .wp-block-post:hover .wp-block-post-title a{
+  color: var(--wp--preset--color--primary);
+}
+.news-section .news-heading-box{
+  gap: 0;
+}
+.recent-btn a {
+  background: var(--wp--preset--color--primary);
+  padding: 10px 12px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.recent-btn a:hover{
+  background: #000;
+}

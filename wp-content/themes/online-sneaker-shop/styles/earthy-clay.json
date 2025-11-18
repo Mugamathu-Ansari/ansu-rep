@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Earthy Clay",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#ffffff",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#1f1f1f",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#a0522d",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#cd853f",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#f5f5dc",
+          "name": "Tertiary",
+          "slug": "tertiary"
+        }
+      ]
+    }
+  }
+}

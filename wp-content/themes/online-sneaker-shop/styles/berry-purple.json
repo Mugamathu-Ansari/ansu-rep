@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Berry Purple",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#ffffff",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#000000",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#d4a373",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#a98467",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#fefae0",
+          "name": "Tertiary",
+          "slug": "tertiary"
+        }
+      ]
+    }
+  }
+}

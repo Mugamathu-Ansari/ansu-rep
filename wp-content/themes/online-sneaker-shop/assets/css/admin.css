@@ -1,0 +1,37 @@
+.wp-block-cover, .wp-block-cover-image {
+  position: relative !important;
+}
+.social-icon {
+  position: absolute !important;
+  top: 50% !important;
+  right: 3% !important;
+  transform: translateY(-50%) !important;
+  z-index: 99999 !important;
+  clip-path: polygon(0 12%, 50% 0, 100% 12%, 100% 88%, 50% 100%, 0 88%) !important;
+  padding: 30px 10px !important;
+}
+.social-icon ul {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.short-heading {
+  padding-left: 8px !important;
+  position: relative !important;
+}
+.short-heading:before {
+  content: "" !important;
+  position: absolute !important;
+  left: 0px !important;
+  top: 6px !important;
+  width: 5px !important;
+  border-radius: 30px !important;
+  height: 5px !important;
+  background: var(--wp--preset--color--primary) !important;
+}
+.wp-block-navigation-submenu .wp-block-navigation__submenu-container a{
+  color: #000000 !important; 
+}
+.photolancer-footer-list ul li a:hover{
+  color: #fff !important;
+}
